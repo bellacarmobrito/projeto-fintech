@@ -1,0 +1,61 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --primary-blue: #1f2a44;
+  --primary-gray: #5d5d5d;
+  --secondary-gray: #727272;
+  --gray-btn: #d6d6d6;
+  --border: #b6b6b6;
+  --bs-white: #fff;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-blue);
+}
+
+.input-login {
+  border: 1px solid var(--border);
+  line-height: 1.8;
+}
+
+input::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-gray);
+}
+
+.forgot {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--secondary-gray);
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.btn-create,
+.btn-signin {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.btn-signin {
+  background-color: var(--primary-blue);
+  color: var(--bs-white);
+}
+
+.btn-create {
+  background-color: var(--gray-btn);
+  color: var(--primary-gray);
+}
+
+.optional-login-title {
+  color: var(--primary-blue);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
